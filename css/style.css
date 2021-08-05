@@ -1,0 +1,104 @@
+/*
+teamplate name: E-BUY
+author:cit
+version:1.0
+----------------------------------
+table of content
+----------------------------------
+1)common css
+2)about css
+*/
+/* common css */
+:root{
+    --highlight-color:#37a000;
+    --text-color:#777;
+    --heading:#353535;
+}
+body{
+    font-family: 'lato', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,ul,ol,span,p{
+padding: 0;
+
+
+margin: 0;
+
+}
+ul{
+    list-style: none;
+    display: inline-block;
+}
+li{
+    display: inline-block;
+    text-align: center;
+   
+    color: rgba(255, 255, 255, 0.884);
+}
+a:hover{
+    text-decoration: none;
+    color:white;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+body{
+    background-color: #252323;
+    color: white;
+}
+span{
+    color: rgb(168, 31, 54);
+}
+h2{
+    color: white;
+    font-size: 31px;
+    font-weight:900;
+    font-family: sans-serif;
+    line-height: 30px;
+    padding: 30px 0px;
+}
+p{
+    color: rgba(255, 255, 255, 0.733);
+    padding: 30px 0px;
+}
+/* banner */
+.banner_icon ul li{
+    padding: 10px 0;
+}
+.banner_icon i{
+    font-size: 23px;
+    border: 1px rgb(20, 19, 19) solid;
+    padding: 8px;
+    margin-right: 5px;
+    background-color: rgb(20, 19, 19);
+}
+/* feature */
+.feature_item{
+    padding: 30px 15px;
+}
+/* portfolio-item */
+.portfolio h2{
+    margin-bottom: 20px;
+}
+.portfolio-item{
+    border: 2px solid white;
+    padding: 30px 10px;
+}
+/* resunme-menu */
+.resunme-menu ul{
+    background-color: rgba(20, 19, 19, 0.808);
+    border-radius: 5px;
+}
+.resunme-menu ul li{
+    padding: 15px 15px;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.resunme-menu ul li:hover{
+    background-color: rgba(15, 14, 14, 0.829);
+    border-radius: 10px;
+    transition: 1s;
+}
