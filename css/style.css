@@ -54,10 +54,16 @@ span{
 h2{
     color: white;
     font-size: 31px;
-    font-weight:900;
+    font-weight:800;
     font-family: sans-serif;
-    line-height: 30px;
-    padding: 30px 0px;
+    /* line-height: 0px; */
+    padding: 25px 0px;
+}
+h3{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.658);
+    font-family: sans-serif;
+    font-weight: bold;
 }
 p{
     color: rgba(255, 255, 255, 0.733);
@@ -71,34 +77,77 @@ p{
     font-size: 23px;
     border: 1px rgb(20, 19, 19) solid;
     padding: 8px;
-    margin-right: 5px;
+    margin-right: 8px;
     background-color: rgb(20, 19, 19);
+    box-shadow: 4px 5px 5px black;
+    border-radius:7px ;
 }
 /* feature */
+.feature{
+   margin-left: 40px;
+   padding: 50px 0;
+}
 .feature_item{
-    padding: 30px 15px;
+    padding: 35px 35px;
+    border: black 1px solid;
+    background-color: rgba(19, 17, 17, 0.678);
+    margin-right: 15px;
+    margin-bottom: 20px;
+    box-shadow: 4px 5px 5px black;
+    border-radius: 5px;
+}
+.feature_item i{
+font-size: 29px;
+color: #f9004d;
+margin-bottom: 20px;
 }
 /* portfolio-item */
+.portfolio .row{
+    margin-left: 30px;
+}
 .portfolio h2{
     margin-bottom: 20px;
 }
 .portfolio-item{
-    border: 2px solid white;
-    padding: 30px 10px;
+    padding: 15px 15px;
+    border: black 1px solid;
+    background-color: rgba(19, 17, 17, 0.678);
+    margin-right: 15px;
+    margin-bottom: 20px;
+    box-shadow: 4px 5px 5px black;
+    border-radius: 5px;
 }
 /* resunme-menu */
+.resume-item{
+    margin: 20px 0;
+    padding: 30px 15px;
+    color: rgba(255, 255, 255, 0.719);
+    border: black 1px solid;
+    background-color: rgba(19, 17, 17, 0.678);
+    box-shadow: 4px 5px 5px black;
+    border-radius: 5px;
+}
+.resume-item h2{
+    color: rgba(255, 255, 255, 0.719);
+}
 .resunme-menu ul{
     background-color: rgba(20, 19, 19, 0.808);
     border-radius: 5px;
+    
+    
 }
 .resunme-menu ul li{
     padding: 15px 15px;
     font-size: 22px;
     font-family: sans-serif;
     font-weight: bold;
+    color: rgba(255, 255, 255, 0.575);
+    margin-right: 5px;
+    cursor: pointer;
 }
 .resunme-menu ul li:hover{
     background-color: rgba(15, 14, 14, 0.829);
     border-radius: 10px;
     transition: 1s;
+    color: #f9004d;
 }
